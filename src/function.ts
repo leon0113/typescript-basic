@@ -1,8 +1,26 @@
 //normal function
-
-function add(num1:number, num2:number):number {
+// default  parameter (last parameter e use krte hbe)
+function add(num1:number , num2:number= 10):number {
     return num1 + num2;
 }
+add(39)
+
+//spread operator
+const myFriends = ['chandler', 'joey', 'ross'];
+const newFriends = ['monica', 'rachel', 'pheobe', "joyee"];
+myFriends.push(...newFriends);
+console.log(myFriends);
+
+// rest parameter
+const greetFriends = (...friends:string[]): void => friends.forEach((element) => {
+    console.log(`hi ${element}`)
+});
+
+greetFriends(...myFriends);
+
+
+
+
 
 // arrow 
 

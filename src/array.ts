@@ -6,4 +6,4 @@ numbers[3] = 12;
 
 //Tuples
 const user: [number, string] = [32, "leon"];
-console.log(user);
+                               
