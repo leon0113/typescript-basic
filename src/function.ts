@@ -7,7 +7,7 @@ add(39)
 
 //spread operator
 const myFriends = ['chandler', 'joey', 'ross'];
-const newFriends = ['monica', 'rachel', 'pheobe', "joyee"];
+const newFriends = ['monica', 'rachel', 'pheobe', "joyee", "ant"];
 myFriends.push(...newFriends);
 console.log(myFriends);
 
