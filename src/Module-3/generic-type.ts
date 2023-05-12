@@ -10,19 +10,19 @@ type GenericTuple<X,Y> = [X,Y];
 
 const relation : GenericTuple<string, string> = ['Leon', 'Shova'];
 
-interface IRelation {
-    name : string,
-    salary : number,
-}
+// interface IRelation {
+//     name : string,
+//     salary : number,
+// }
 
-const relatoinSalary : GenericTuple<IRelation, string> = [
-    {
-        name : "Leon",
-        salary : 30000
-    },
-    'Shoova'
+// const relatoinSalary : GenericTuple<IRelation, string> = [
+//     {  
+//         name : "Leon",
+//         salary : 30000
+//     },
+//     'Shoova'
 
-]
+// ]
 // const relatoinSalary : GenericTuple<{name : string, salary : number}, string> = [
 //     {
 //         name : "Leon",
