@@ -29,15 +29,15 @@ createArray<NameType>({
 
 // const newData = {...myInfo, crush};
 
-const addMeInMyCrushMind = <T>(myInfo: T) => {
-    const crush = 'Kate Winslet';
-    const newData = {...myInfo,crush}
-    return newData ;
-}
+// const addMeInMyCrushMind = <T>(myInfo: T) => {
+//     const crush = 'Kate Winslet';
+//     const newData = {...myInfo,crush}
+//     return newData ;
+// }
 
-const myInfo = {
-    name : 'Leon',
-    age : 24,
-    salary : 20000
-};
-const result = addMeInMyCrushMind(myInfo);
+// const myInfo = {
+//     name : 'Leon',
+//     age : 24,
+//     salary : 20000
+// };
+// const result = addMeInMyCrushMind(myInfo);
