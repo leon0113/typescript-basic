@@ -10,7 +10,7 @@ type MyInfoType = {
     age: number,
     salary: number,
     other: boolean
-}
+};
 
 const myInfo: MyInfoType = {
     name: 'Leon',
