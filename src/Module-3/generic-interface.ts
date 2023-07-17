@@ -48,4 +48,4 @@ const relatoinSalary : GenericTuple<IRelation, string> = [
     },
     'Shoova'
 
-]
+];
