@@ -3,7 +3,7 @@ const addMeInMyCrushMind = <T extends MandatoryInfo>(myInfo: T) => {
     const crush = 'Kate Winslet';
     const newData = { ...myInfo, crush }
     return newData;
-}
+};
 
 type MyInfoType = {
     name: string,
