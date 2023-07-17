@@ -14,7 +14,7 @@ type MyInfoType = {
 
 const myInfo: MyInfoType = {
     name: 'Leon',
-    age: 24,
+    age: 22,
     salary: 20000,
     other: true
 };
