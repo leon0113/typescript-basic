@@ -13,9 +13,16 @@ type Volume = {
 // };
 // obj['name']
 
-type Area = {
-    [key in keyof Volume]: string
+// type Area = {
+//     [key in keyof Volume]: Volume[key]
+// }
+type Area<T>= {
+  readonly  [key in keyof T] : T[key]
 }
+
+
+const area1: Area <{height: number, width: string;}> = {height: 5, width: '10'}
+
 
 type AreaString = {
     height: string;
@@ -33,10 +40,10 @@ const area: AreaReadOnly = {
     width: 5
 };
 
-// area.width = 10;  cant access
+// area.width = 10; // cant access
 
-type A = AreaNumber['height'] // look up types
-type B = keyof AreaNumber;  // 'height | 'width'
+// type A = AreaNumber['height'] // look up types
+// type B = keyof AreaNumber;  // 'height | 'width'
 
 
 
