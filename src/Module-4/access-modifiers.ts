@@ -17,6 +17,16 @@ class BankAcc {
 }
 
 const myAcc = new BankAcc(444, 'leon', 40323);
+myAcc.addDiposit(20);
+myAcc.getBalance();
+
+
+
+
+
+
+
+
 // myAcc.balance = 0; // only accessable for class
 // console.log(myAcc);
 
