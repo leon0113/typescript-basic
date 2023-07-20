@@ -13,12 +13,8 @@ type KeyOfType = keyof PersonType;
 // const b : KeyOfType = 'name'
 
 function getProperty<X, Y extends keyof X>(obj: X, key: Y){
- obj[key]
+ return obj[key]
 }
 
-const property = getProperty({name: 'MR', age: 34, salary: 1234}, 'age');
-
-const a = {
-    name: 'Mr',
-    age: 100
-}
+const property = getProperty({name: 'MR', age: 34, salary: 1234}, 'salary');
+console.log(property);

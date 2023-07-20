@@ -25,7 +25,7 @@ getTodoData();
 
 //! Mockinng
 
-
+// string
 const makePromise = (): Promise<string> => {
     return new Promise<string>((resolve, reject) => {
         const data: string = 'Data is fatched';
