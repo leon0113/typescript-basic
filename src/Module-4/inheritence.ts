@@ -36,7 +36,7 @@ class Teacher extends Common {
 
 const teacher1 = new Teacher('Tahjib', 32, 'khulna', 'lecturer');
 
-// teacher1.
-
+// const resul = teacher1.takeClasses(5)
+// console.log(resul);
 
 //? npx ts-node-dev --respawn ./src/Module-4/inheritence.ts

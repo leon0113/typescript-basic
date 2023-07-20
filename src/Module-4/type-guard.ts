@@ -8,8 +8,9 @@ function addNum(num1: AlphaNum, num2: AlphaNum): AlphaNum | undefined {
     }
 }
 
-addNum('2', '4');
-addNum(3, 5);
+const result1 = addNum('2', '4');
+const result2 = addNum(3, 5);
+console.log(result1, result2);
 
 // in guard 
 type NormalUser = {
