@@ -21,7 +21,7 @@ class Student extends Common {
     }
 }
 const student1 = new Student('Leon', 24, 'Dhaka');
-student1.
+// student1.
 // teacher class
 class Teacher extends Common {
     designation: string;
@@ -36,32 +36,7 @@ class Teacher extends Common {
 
 const teacher1 = new Teacher('Tahjib', 32, 'khulna', 'lecturer');
 
-teacher1.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// teacher1.
 
 
 //? npx ts-node-dev --respawn ./src/Module-4/inheritence.ts
